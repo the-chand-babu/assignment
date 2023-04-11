@@ -1,0 +1,53 @@
+.heading{
+  width: 200px;
+  margin: auto;
+  color: teal;
+}
+
+table{
+text-align: center;
+border-collapse: collapse;
+
+width: 70%;
+margin: auto;
+
+}
+
+
+
+tr th{
+  border: 2px solid rgb(235, 233, 233);
+  font-size: 15px;
+  padding: 5px 7px;
+  background-color: rgb(69, 54, 84);
+  color: white;
+}
+tr td{
+  /* border: 1px solid black; */
+  padding: 5px 10px;
+  font-size: 13px;
+  
+}
+
+tr:nth-child(even){
+  background-color:rgb(48, 94, 94);
+  color: white;
+}
+
+tr:nth-child(odd){
+  
+}
+
+.delete{
+  
+  font-size: 20px;
+  cursor: pointer;
+  
+transition: 0.5s linear;
+}
+
+.delete:hover{
+  background-color:rgb(108, 108, 179);
+  border-radius: 10px;
+  
+}
