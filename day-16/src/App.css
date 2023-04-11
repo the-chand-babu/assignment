@@ -1,53 +1,163 @@
-.heading{
-  width: 200px;
+.App {
+  /* border: 1px solid red; */
+  /* height: 500px; */
+  width: 500px;
   margin: auto;
-  color: teal;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  
 }
 
-table{
-text-align: center;
-border-collapse: collapse;
-
-width: 70%;
-margin: auto;
+.form-container {
+  /* border: 1px solid red; */
+  height: 240px;
+  /* width:500px */
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-between;
 
 }
 
-
-
-tr th{
-  border: 2px solid rgb(235, 233, 233);
-  font-size: 15px;
-  padding: 5px 7px;
-  background-color: rgb(69, 54, 84);
-  color: white;
-}
-tr td{
+.table-container {
   /* border: 1px solid black; */
-  padding: 5px 10px;
-  font-size: 13px;
-  
+  /* height: 220px; */
+  /* width:500px */
 }
-
-tr:nth-child(even){
-  background-color:rgb(48, 94, 94);
-  color: white;
-}
-
-tr:nth-child(odd){
-  
-}
-
-.delete{
-  
-  font-size: 20px;
-  cursor: pointer;
-  
-transition: 0.5s linear;
-}
-
-.delete:hover{
-  background-color:rgb(108, 108, 179);
+.inputData{
+  border: 2px solid black;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  display: block;
+  padding: 10px 20px;
+  background-color: rgb(205, 221, 255);
   border-radius: 10px;
+}
+
+input{
+  width: 80%;
+  /* margin-left: 20px; */
+  padding: 5px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  /* border: none; */
+  outline: none;
+  background-color: rgb(199, 221, 232);
   
+}
+
+.inputData button{
+  font-size: 20px;
+  padding: 5px 20px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(78, 48, 106);
+  color: white;
+  cursor: pointer;
+  transition: .5s linear;
+}
+
+.inputData button:hover{
+  background-color: blueviolet;
+}
+
+
+.liveData{
+  border: 2px solid black;
+  width: 40%;
+ 
+
+}
+
+
+
+.liveData{
+  padding: 5px 20px;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(205, 221, 255);
+  border-radius: 10px;
+
+}
+
+.liveData h4{
+  width: 80%;
+  color: teal;
+  /* margin-top: -10px; */
+}
+
+
+.table-container{
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.table-div{
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  /* border: 1px solid red; */
+  align-items: center;
+  /* padding: 5px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(80, 80, 153);
+  font-weight: bold;
+
+  color: rgb(254, 254, 255);
+  font-size: 12px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.table-div span{
+  cursor: pointer;
+  /* margin-top: 20px; */
+}
+
+.divheading{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  line-height: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(54, 54, 88);
+  color: white;
+  border-radius: 10px;
+}
+
+.nonactive{
+  display: none;
+}
+
+.active{
+  display: block;
+  border: 1px solid black;
+  width: 39%;
+  z-index: 1000;
+  height: 250px;
+  position: absolute;
+  top: 10px;
+  border-radius: 10px;
+  background-color: rgb(97, 97, 167);
+  padding: 10px 20px;
+  
+  margin-top: 10px;
+  text-align: center;
+}
+
+.closetogle{
+  position: absolute;
+  left: 520px;
+  top: -20px;
+  padding: 10px;
+  z-index: 10000;
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 50%;
+  cursor: pointer;
 }
