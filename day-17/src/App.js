@@ -63,6 +63,7 @@ function App() {
             <div className="input-div">
               <p>Select Product</p>
               <select name="" id="" onChange={handeleChangeproduct}>
+                <option value="">Select</option>
                 <option value="Sugar">Sugar</option>
                 <option value="Oats">Oats</option>
                 <option value="Cofee">Cofee</option>
@@ -86,6 +87,7 @@ function App() {
         <div className="input-div">
           <p>Select Product</p>
           <select name="" id="" onChange={handeleChangeproduct}>
+          <option value="">Select</option>
             <option value="Sugar">Sugar</option>
             <option value="Oats">Oats</option>
             <option value="Cofee">Cofee</option>
@@ -101,7 +103,7 @@ function App() {
             placeholder="Quantity"
           />
         </div>
-        <button type="submit">Add More Item</button> 
+        <button type="submit">Add More Item</button>
       </form>
 
       <hr />
