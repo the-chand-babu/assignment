@@ -1,0 +1,62 @@
+.ul-list {
+  list-style: none;
+  border: 1px solid white;
+  padding: 20px;
+  width: 50%;
+  background-color: teal;
+  color: white;
+}
+.ul-list > li {
+  border: 1px solid white;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.App {
+  display: flex;
+  border: 1px solid white;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  padding-left: 20px;
+  background-color: rgb(255, 196, 0);
+}
+
+.ul-body {
+  list-style: none;
+  /* background-color: teal; */
+
+}
+
+
+.detail-container{
+  border: 1px solid white;
+  width: 38%;
+  margin-left: 30px;
+  margin-top: 15px;
+  color: white;
+
+}
+
+.list-id{
+  /* border: 1px solid black; */
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.list-userID{
+  /* border: 1px solid black; */
+  padding-left: 10px;
+}
+
+.list-title{
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.list-body{
+  font-size: 12px;
+  padding: 10px;
+}
