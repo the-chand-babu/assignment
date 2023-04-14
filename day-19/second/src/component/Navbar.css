@@ -1,0 +1,21 @@
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    height: 20px;
+    align-items: center;
+}
+.nav-container ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.link-tag{
+    color: white;
+    text-decoration: none;
+}
