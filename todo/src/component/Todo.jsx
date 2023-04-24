@@ -36,7 +36,7 @@ const handleEmail=(e)=>{
   }
   return (
     <div>
-      <div>
+      <div className="input-container">
         <label htmlFor="">Name:</label>
         <input value={name} onChange={handleName}type="text" />
         <br />

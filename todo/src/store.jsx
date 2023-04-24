@@ -16,7 +16,6 @@ const userSlice = createSlice({
 
       const data = state.filter((item) => {
         if (item.id != id) {
-          console.log(item.id);
           return item;
         }
       });
@@ -35,13 +34,13 @@ const counterSlice=createSlice({
         initialState:0,
         reducers:{
             inCrement:(state,action)=>{
-
+                return state=state+1;
             },
             decrement:(state,action)=>{
-
+                return state=state-1;
             },
             reset:(state,action)=>{
-
+              return state=0
             }
         }
 })
@@ -49,8 +48,8 @@ const counterSlice=createSlice({
 const store = configureStore({
   reducer: {
     users: userSlice.reducer,
-    counters:counterSlice.reducers,
+    count:counterSlice.reducer
   },
 });
 
-export { store, userSlice };
+export { store, userSlice,counterSlice };

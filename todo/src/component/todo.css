@@ -5,3 +5,37 @@
     
     
 }
+.input-container{
+   
+    padding: 20px;
+    background-color: rgb(73, 118, 118);
+    color: white;
+    border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+.input-container button{
+    background-color: blue;
+    color:  white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.table{
+   
+    width: 500px;
+    border-collapse: collapse;
+    color: white;
+}
+.table th{
+    background-color:teal;
+    padding: 7px 0px;
+}
+
+.table td{
+    background-color: rgb(96, 183, 212);
+    padding: 7px 0;
+    
+}

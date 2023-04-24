@@ -10,8 +10,8 @@ function App() {
     <div className="App">
 
       <Provider store ={store} >
-    <Todo />
-        {/* <CountApp />   */}
+        <Todo />
+        <CountApp />  
       </Provider>
      
     </div>
