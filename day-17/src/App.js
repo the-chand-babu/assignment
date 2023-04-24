@@ -79,6 +79,7 @@ function App() {
                 type="text"
                 placeholder="Quantity"
               />
+            
             </div>
           </div>
         );
