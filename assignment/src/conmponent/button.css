@@ -1,0 +1,32 @@
+
+.btn-btn{
+    background-color: teal;
+    width: 50px;
+    border: none;
+   margin-left: 10px;
+   padding: 2px 0 ;
+   color: white;
+   cursor: pointer;
+   margin-top: 20px;
+}
+.btn-btn:hover{
+    background-color: rgb(142, 199, 199);
+}
+
+.table{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    padding: 20px;
+   
+  
+}
+
+.table tbody{
+    margin-left: 20px;
+    width: 50%;
+    border-collapse: collapse;
+}
+.table td,th{
+    border: 1px solid black;
+}

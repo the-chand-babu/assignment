@@ -22,7 +22,7 @@ const userSlice = createSlice({
       return data;
     },
     isComplete: (state, action) => {
-        console.log(action.payload.id)
+        // console.log(action.payload.id)
         const updateuser= state.find(user=>user.id==action.payload.id);
         updateuser.compelete=true
     },
