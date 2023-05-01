@@ -6,9 +6,9 @@ const buttonSlice = createSlice({
   reducers: {
     addButtoncount: (state, action) => {
       const obj = action.payload;
-      if (state.length == 0) {
-        state.push(obj);
-      }
+    //   if (state.length == 0) {
+    //     state.push(obj);
+    //   }
       const existing = state.find((item) => item.char == obj.char);
       if (existing) {
         existing.char = obj.char;
