@@ -1,15 +1,28 @@
 //https://jsonplaceholder.typicode.com/posts
 
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "./App.css";
-import PxToRemConverter from "./pixel";
+
 
 
 
 export default function App() {
+const [counter,setCounter]= useState(0);
+
+useEffect(()=>{
+  
+ const id= setInterval(()=>{
+      setCounter(counter+1)
+  },1000)
+  return(()=>{
+    clearInterval(id)
+  })
+},[counter])
+
+
   return (
     <div className="detail-container">
-      <PxToRemConverter />
+        <p>{counter}</p>
     </div>
   );
 }
